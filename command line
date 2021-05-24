@@ -1,0 +1,14 @@
+use pwd
+ for creating new directory
+ 
+use cd
+ for changing and entering the directory we want
+ 
+ls
+ list what are the stuffs are there in our location
+ 
+mkdir -
+ for making a new directory
+
+touch -
+ to create a new file
