@@ -1,0 +1,17 @@
+for using the command line directly like google inspect 
+  type node and enter
+  
+use .exit or control c twice
+
+clear to delete all the previous command
+
+use the command
+//jshint esversion:6
+
+these are the uses of some in built node js libraries
+const fs = require("fs");
+fs.copyFileSync("file1.txt","file2.txt")
+
+for running the entire stuff give node and then enter
+the file will be copied from txt 1 to txt 2
+
