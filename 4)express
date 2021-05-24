@@ -1,0 +1,62 @@
+like jquery it helps in easying the code
+use atom . for entering it directly into the atom kernel
+
+after following these steps 
+we have to install express
+node server.js to run the server
+
+the local host helps in running a local host for our site
+localhost:3000 is the syntax for it
+it is like home page for google
+
+for triggering and getting stuffs from the server 
+we have to use this above the anonymous function
+
+const { response } = require("express");
+const express = require("express");
+const app = express();
+
+app.get("/",function(request, response){
+    response.send("<h1>This is shaam</h1>")
+})
+app.listen(3000, function(){
+    console.log("ssn");
+});
+
+first 3 lines of code is just like for calling assigning and installing node
+next 2 lline of code for getting response
+nxt for listening
+
+quit the server run there and then reload in the browser
+
+use sendFile
+ for selecting the entire file
+ 
+use __dirname
+for selecting any directory let be even be hosted in a server
+
+npm install body-parser
+for parsing the body or the info to be sent
+
+for using body-parser we will be using
+app.use(bodyParser.urlencoded({extended : true}))
+for posting many objects
+
+getting  the specified stuff
+req.body.num1
+so on
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
