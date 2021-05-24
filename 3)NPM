@@ -1,0 +1,13 @@
+npm plays an important role it has inbuilt codes so no need to do from scratch
+npm init to  load npm
+once done a json repository will be created
+
+json a file format used to organize the data
+
+var superheroes = require("superheroes")
+var myHeroes = superheroes.random()
+console.log(myHeroes)
+for generating random superheroes name
+this is external since we downloaded this from npm
+
+use the heading name for installing
